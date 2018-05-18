@@ -14,6 +14,7 @@ export class TodosComponent implements OnInit {
 
   ngOnInit() {
     this.todos= this.ts.getTodos();
+    console.log(this.todos);
   }
 
 }
